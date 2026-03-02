@@ -1,0 +1,28 @@
+.login-side-background {
+    background-image: url("/images/login-bg.png"); /* your hex bg */
+    background-size: cover;
+    background-position: center;
+}
+
+/* modern input */
+.form-control {
+    border-radius: 14px;
+    border: 1.5px solid #e5e7eb;
+}
+
+.form-control:focus {
+    border-color: #2563eb;
+    box-shadow: none;
+}
+
+/* gradient button */
+.login-btn {
+    background: linear-gradient(90deg, #2563eb, #1d4ed8);
+    border: none;
+    transition: 0.25s;
+}
+
+.login-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.25);
+}
