@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@font-face {
+    font-family: "Agrandir Grand Heavy";
+    src: url("../font/agrandir-grand/Agrandir-GrandHeavy.otf")
+        format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Agrandir Grand Bold";
+    src: url("../font/agrandir-grand/Agrandir-TextBold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Agrandir Grand Regular";
+    src: url("../font/agrandir-grand/Agrandir-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --bg-dark: #0a0a0c;
+    --accent-purple: #8a2be2;
+    --accent-blue: #4d94ff;
+    --text-gray: #a0a0a0;
+}
+
+* {
+    font-family: "Agrandir Grand Regular", sans-serif;
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-header {
+    font-family: "Agrandir Grand Heavy";
+}
+
+.text-title {
+    font-family: "Agrandir Grand Bold";
+}
+
+.x-small {
+    font-size: 8px !important;
+}
+
+.bg-french-blue {
+    background-color: #1e3a8a !important;
+}
+
+.color-french-blue {
+    color: #1e3a8a !important;
+}
+
+.login-side-background {
+    background:
+        linear-gradient(rgba(10, 10, 12, 0.8), rgba(10, 10, 12, 0.8)),
+        url("../images/others/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+}
+
+.contact-side-background {
+    background: url("../images/others/meeting.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage-background {
+    background-image: url("../images/others/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast();
+}
+
+.sidenavbar-panel-bg {
+    background-color: #141c35;
+}
+
+.nav-link.active {
+    border-bottom: 3px solid white !important;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    background-color: #4d94ff;
+    color: white;
+}
+
+.onclick-skill-card:hover {
+    cursor: pointer;
+}
+
+.onclick-skill-card:focus {
+    background-color: #4d94ff !important;
+}
